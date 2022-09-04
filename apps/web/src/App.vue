@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
+// This import errors due to https://github.com/johnsoncodehk/volar/issues/1815
 import { HelloWorld } from "foo-lib";
 
 console.log(process.env.NODE_ENV);
