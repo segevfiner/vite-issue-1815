@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "main": "./dist/foo-lib.js",
   "module": "./dist/foo-lib.js",
   "types": "./dist/foo-lib.d.ts",
   "exports": {
