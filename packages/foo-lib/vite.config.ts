@@ -3,16 +3,18 @@ import { resolve } from "node:path";
 
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import dts from 'vite-plugin-dts';
+import dts from "vite-plugin-dts";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(),
+  plugins: [
+    vue(),
     dts({
       tsConfigFilePath: "tsconfig.app.json",
       entryRoot: "src",
       insertTypesEntry: true,
-    }),],
+    }),
+  ],
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
@@ -21,7 +23,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
-      formats: ['es'],
+      formats: ["es"],
     },
     rollupOptions: {
       external: ["vue"],
