@@ -9,6 +9,9 @@
   "references": [
     {
       "path": "../../packages/foo-lib/tsconfig.app.json"
+    },
+    {
+      "path": "../../packages/bar-lib"
     }
   ]
 }
