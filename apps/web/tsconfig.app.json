@@ -7,13 +7,14 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      // Why is this needed? We have a pnpm workspace dependency on it
-      "foo-lib": ["../../packages/foo-lib/src/index.ts"]
     }
   },
   "references": [
     {
       "path": "../../packages/foo-lib/tsconfig.app.json"
+    },
+    {
+      "path": "../../packages/bar-lib"
     }
   ]
 }

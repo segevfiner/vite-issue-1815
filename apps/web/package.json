@@ -14,6 +14,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "bar-lib": "workspace:^0.1.0",
     "foo-lib": "workspace:^0.0.0",
     "pinia": "^2.0.27",
     "vue": "^3.2.45",

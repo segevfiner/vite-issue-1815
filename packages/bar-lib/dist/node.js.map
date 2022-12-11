@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/node.ts"],"sourcesContent":["export const BAR = \"Node\";\n"],"mappings":";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,IAAM,MAAM;","names":[]}

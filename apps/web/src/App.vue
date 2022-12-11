@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from "vue-router";
 // This import errors due to https://github.com/johnsoncodehk/volar/issues/1815
 import { HelloWorld } from "foo-lib";
+import BAR from "bar-lib";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import { HelloWorld } from "foo-lib";
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <p>{{ BAR }}</p>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>

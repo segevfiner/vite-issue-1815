@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"sourcesContent":["import { logger, withLogContext } from \"@swimm/log\";\n\nwithLogContext(\n  {\n    foo: \"bar\",\n  },\n  () => {\n    logger.info(\"Hello, World!\");\n  }\n);\n"],"mappings":";;;AAAA,iBAAuC;AAAA,IAEvC;AAAA,EACE;AAAA,IACE,KAAK;AAAA,EACP;AAAA,EACA,MAAM;AACJ,sBAAO,KAAK,eAAe;AAAA,EAC7B;AACF;","names":[]}

@@ -1,5 +1,8 @@
 {
   "files": [],
+  "compilerOptions": {
+    "lib": ["ES5"]
+  },
   "references": [
     {
       "path": "./tsconfig.config.json"
